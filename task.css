@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 17px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 25px;
+    box-shadow: 1px 1px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button {
+    font-size: 20px;
+    border: 2px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px;
+}
+
+.buttons :hover {
+    color: red;
+    transition-duration: 0.4s;
+}
+
+.calculatorbox {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 23px;
+    border-radius: 10px;
+    background-color: lightslategray;
+}
+
+.buttonequals {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 25px;
+    border: 2px solid red;
+    box-shadow: 1px 1px red;
+}
